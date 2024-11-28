@@ -1,5 +1,5 @@
 import React from 'react';
-import fondo from '../../assets/home/section1-vector.svg';
+import fondo2 from '/assets/home/section1-vector.svg';
 import imagen from '../../assets/home/svg2.svg';
 import empezar from '../../assets/home/empezar-buton.svg';
 
@@ -7,7 +7,7 @@ const Section1: React.FC = () => {
   return (
     <section
       className="w-full bg-bottom bg-no-repeat bg-cover"
-      style={{ backgroundImage: `url(${fondo})` }}
+      style={{ backgroundImage: `url(${fondo2})` }}
     >
       <div className="relative flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between h-full px-6 md:px-16 lg:px-24 text-center lg:text-left">
         {/* Columna izquierda */}
